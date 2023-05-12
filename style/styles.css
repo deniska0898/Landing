@@ -383,8 +383,8 @@
 
 .team__selected-photo {
     flex-shrink: 0;
-    width: 322px;
-    height: 462px;
+    width: 311px;
+    height: 458px;
     margin-right: 66px;
     background-color: #ff3f40;
     grid-column: 1 / 2;
@@ -907,7 +907,7 @@
         width: 100%;
     }
     .intro__heading {
-        font-size: 40px;
+        font-size: 37px;
     }
     .section-heading {
         display: flex;
@@ -954,7 +954,7 @@
 }
 
 /* Скрыть ненужные элементы*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .popup-menu__buton {
         display:block;
     }
@@ -994,7 +994,7 @@
     transition: visibility, transform 1s, 0.5s ease-in-out;
 
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     .popup-menu__list {
         visibility: hidden;
     }
