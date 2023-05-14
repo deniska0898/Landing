@@ -567,8 +567,8 @@
 /* Feedback contacts */
 
 .feedback-contacts {
-    display: flex;
-    /*display: grid;*/
+    /*display: flex;*/
+    display: grid;
     justify-content: center;
     align-items: flex-end;
     padding-top: 92px;
@@ -936,6 +936,9 @@
         padding-top: 54px;
         padding-bottom: 54px;
         margin-top: 40px;
+    }
+    .feedback-contacts {
+        display: flex;
     }
 }
 
